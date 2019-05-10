@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2bf3068-8d8e-4a10-a3af-cc0a16e318ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/grams_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/grams_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/gram.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/gram.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,7 +32,7 @@
           <entry key="Gemfile" value="1" />
           <entry key="erb" value="3" />
           <entry key="js" value="1" />
-          <entry key="rb" value="9" />
+          <entry key="rb" value="10" />
           <entry key="scss" value="1" />
           <entry key="yml" value="1" />
         </counts>
@@ -44,7 +41,7 @@
         <counts>
           <entry key="JavaScript" value="1" />
           <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="10" />
+          <entry key="Ruby" value="11" />
           <entry key="SCSS" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -54,7 +51,7 @@
           <entry key="Gemfile" value="33" />
           <entry key="erb" value="42" />
           <entry key="js" value="2" />
-          <entry key="rb" value="477" />
+          <entry key="rb" value="691" />
           <entry key="scss" value="20" />
           <entry key="yml" value="4" />
         </counts>
@@ -63,7 +60,7 @@
         <counts>
           <entry key="JavaScript" value="2" />
           <entry key="RHTML" value="42" />
-          <entry key="Ruby" value="510" />
+          <entry key="Ruby" value="724" />
           <entry key="SCSS" value="20" />
           <entry key="YAML" value="4" />
         </counts>
@@ -108,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -120,17 +117,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="233">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/gram_spec.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/gram.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -153,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/grams_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="332">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -179,13 +176,14 @@
         <option value="$PROJECT_DIR$/spec/models/gram_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/grams/new.html.erb" />
-        <option value="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/grams_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/gram.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/grams_controller.rb" />
       </list>
     </option>
   </component>
@@ -255,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="user_spe&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/models/user_spec.rb&#10;application.html&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/views/layouts/application.html.erb&#10;production.rb&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/environments/production.rb&#10;development.r&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/environments/development.rb&#10;gram_spec&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/models/gram_spec.rb&#10;appli&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/assets/javascripts/application.js&#10;application.js&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/assets/javascripts/application.js&#10;gramscontroller.r&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/controllers/grams_controller.rb&#10;routes&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/routes.rb&#10;grams_&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/controllers/grams_controller_spec.rb&#10;grams_help&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/helpers/grams_helper_spec.rb&#10;gemfile&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/Gemfile&#10;database.ym&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="grams_cont&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/controllers/grams_controller.rb&#10;grams&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/controllers/grams_controller_spec.rb&#10;gram.rb&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/models/gram.rb&#10;grams_contro&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/controllers/grams_controller_spec.rb&#10;user_spe&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/models/user_spec.rb&#10;application.html&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/views/layouts/application.html.erb&#10;production.rb&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/environments/production.rb&#10;development.r&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/environments/development.rb&#10;gram_spec&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/models/gram_spec.rb&#10;appli&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/assets/javascripts/application.js&#10;application.js&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/assets/javascripts/application.js&#10;gramscontroller.r&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/app/controllers/grams_controller.rb&#10;routes&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/routes.rb&#10;grams_&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/controllers/grams_controller_spec.rb&#10;grams_help&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/spec/helpers/grams_helper_spec.rb&#10;gemfile&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/Gemfile&#10;database.ym&#9;FILE&#9;file:///Users/sarunkum/Desktop/coding-environment/src/grammable/config/database.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -388,12 +386,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557449161019</updated>
-      <workItem from="1557449162424" duration="5053000" />
+      <workItem from="1557449162424" duration="5490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5053000" />
+    <option name="totallyTimeSpent" value="5490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -483,24 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/grams_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -534,8 +518,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/gram.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/grams_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
